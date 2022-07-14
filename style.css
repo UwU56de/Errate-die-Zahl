@@ -1,0 +1,54 @@
+*{
+
+  text-align: center;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Merriweather:ital,wght@0,400;1,300&family=Oswald:wght@200&family=Work+Sans&display=swap');
+
+
+body{
+  color:#0d1316;
+  background: RGBA(216,219,1,0.33);
+   /* font-family: 'Merriweather', sans-serif;
+   font-size: 18px; */
+   line-height: 1 rem;
+   /* font-weight: normal; */
+ font: normal 200% 'Merriweather', sans-serif;
+ 
+   /* text-decoration: line-through; перечеркнуть*/
+   /* font-style: italic; курсив  */
+   letter-spacing: 1 px; 
+   /* word-spacing: 20px; */
+ }
+
+
+.ceck, .start {
+  background:RGBA(67,140,255,1);
+  padding: 1% 1% 0.7% 1%;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  font-size: 75%;
+  
+}
+
+.ceck:hover{
+  opacity:0.8;
+}
+
+.start:hover{
+  opacity: 0.8;
+}
+
+.number{
+ 
+    width: 18%;
+    margin: 0 1% 0 0;
+    padding: 1% 0 0.7% 0.3%;
+   border:none;
+   border-bottom:solid 2px #091620 ;
+   background:transparent;
+  
+}
+
